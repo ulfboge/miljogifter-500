@@ -1,12 +1,13 @@
-# Dependencies (om man senare lägger till npm-paket)
+# Dependencies
 node_modules/
+
+# Hjälpskript för screenshots (används bara lokalt)
+take-screenshot.mjs
+package.json
+package-lock.json
 
 # Lokal serverdump
 .serve/
-
-# Skärmbild som tagits lokalt men inte ska versionshanteras ännu
-# Ta bort raden nedan när du lägger till en riktig screenshot.png
-screenshot.png
 
 # OS-filer
 .DS_Store
