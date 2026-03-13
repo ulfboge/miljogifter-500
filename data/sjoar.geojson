@@ -1,0 +1,225 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [17.4667, 59.5333] },
+      "properties": {
+        "namn": "Mälaren",
+        "foroReningsgrad": "måttlig",
+        "gifter": ["PFAS", "kvicksilver", "PCB"],
+        "senast_provtagen": "2024-08-15",
+        "lan": "Stockholm"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [13.5000, 58.3833] },
+      "properties": {
+        "namn": "Vänern",
+        "foroReningsgrad": "låg",
+        "gifter": ["kvicksilver", "kadmium"],
+        "senast_provtagen": "2024-07-20",
+        "lan": "Västra Götaland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [14.5667, 58.3500] },
+      "properties": {
+        "namn": "Vättern",
+        "foroReningsgrad": "låg",
+        "gifter": ["PFAS", "dioxiner"],
+        "senast_provtagen": "2024-09-03",
+        "lan": "Jönköping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [14.9167, 56.9167] },
+      "properties": {
+        "namn": "Hjälmaren",
+        "foroReningsgrad": "hög",
+        "gifter": ["PFAS", "kvicksilver", "bly", "kadmium"],
+        "senast_provtagen": "2024-06-10",
+        "lan": "Örebro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [14.7500, 56.1833] },
+      "properties": {
+        "namn": "Åsnen",
+        "foroReningsgrad": "låg",
+        "gifter": ["kvicksilver"],
+        "senast_provtagen": "2024-05-22",
+        "lan": "Kronoberg"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [16.8667, 60.5667] },
+      "properties": {
+        "namn": "Dalälvens sjösystem – Runn",
+        "foroReningsgrad": "hög",
+        "gifter": ["PFAS", "kvicksilver", "dioxiner", "PCB"],
+        "senast_provtagen": "2024-10-01",
+        "lan": "Dalarna"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [18.1833, 59.4500] },
+      "properties": {
+        "namn": "Baggensfjärden",
+        "foroReningsgrad": "hög",
+        "gifter": ["TBT", "PCB", "bly"],
+        "senast_provtagen": "2024-04-15",
+        "lan": "Stockholm"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [12.0167, 57.7000] },
+      "properties": {
+        "namn": "Landvettersjön",
+        "foroReningsgrad": "hög",
+        "gifter": ["PFAS"],
+        "senast_provtagen": "2024-11-08",
+        "lan": "Västra Götaland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [15.6167, 59.3667] },
+      "properties": {
+        "namn": "Tisaren",
+        "foroReningsgrad": "måttlig",
+        "gifter": ["kvicksilver", "kadmium"],
+        "senast_provtagen": "2024-07-30",
+        "lan": "Örebro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [20.3000, 63.8333] },
+      "properties": {
+        "namn": "Degernässjön",
+        "foroReningsgrad": "måttlig",
+        "gifter": ["kvicksilver", "PCB"],
+        "senast_provtagen": "2024-08-20",
+        "lan": "Västernorrland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [17.9500, 62.6333] },
+      "properties": {
+        "namn": "Nätrasjön",
+        "foroReningsgrad": "låg",
+        "gifter": ["kvicksilver"],
+        "senast_provtagen": "2024-06-05",
+        "lan": "Västernorrland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [19.6500, 64.7667] },
+      "properties": {
+        "namn": "Storuman",
+        "foroReningsgrad": "låg",
+        "gifter": ["kadmium"],
+        "senast_provtagen": "2024-05-15",
+        "lan": "Västerbotten"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [22.5000, 65.8000] },
+      "properties": {
+        "namn": "Uddjaure",
+        "foroReningsgrad": "låg",
+        "gifter": ["kvicksilver"],
+        "senast_provtagen": "2024-07-12",
+        "lan": "Norrbotten"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [16.0333, 56.6667] },
+      "properties": {
+        "namn": "Emån – Försjön",
+        "foroReningsgrad": "måttlig",
+        "gifter": ["kvicksilver", "bly"],
+        "senast_provtagen": "2024-09-18",
+        "lan": "Kalmar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [12.9667, 55.5833] },
+      "properties": {
+        "namn": "Kvarnbysjön",
+        "foroReningsgrad": "hög",
+        "gifter": ["PFAS", "bly", "kadmium", "PCB"],
+        "senast_provtagen": "2024-03-25",
+        "lan": "Skåne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [13.8333, 55.9167] },
+      "properties": {
+        "namn": "Ringsjön",
+        "foroReningsgrad": "måttlig",
+        "gifter": ["kvicksilver", "PFAS"],
+        "senast_provtagen": "2024-08-05",
+        "lan": "Skåne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [14.1833, 58.0167] },
+      "properties": {
+        "namn": "Bunn",
+        "foroReningsgrad": "låg",
+        "gifter": ["kadmium"],
+        "senast_provtagen": "2024-06-28",
+        "lan": "Jönköping"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [16.5167, 57.4333] },
+      "properties": {
+        "namn": "Örken",
+        "foroReningsgrad": "måttlig",
+        "gifter": ["kvicksilver", "dioxiner"],
+        "senast_provtagen": "2024-10-14",
+        "lan": "Kalmar"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [11.8333, 57.5000] },
+      "properties": {
+        "namn": "Sisjön",
+        "foroReningsgrad": "hög",
+        "gifter": ["PFAS", "dioxiner", "PCB"],
+        "senast_provtagen": "2024-11-20",
+        "lan": "Västra Götaland"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [18.6667, 59.8500] },
+      "properties": {
+        "namn": "Erken",
+        "foroReningsgrad": "låg",
+        "gifter": ["kvicksilver"],
+        "senast_provtagen": "2024-07-08",
+        "lan": "Uppsala"
+      }
+    }
+  ]
+}

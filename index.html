@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Miljögifter i svenska sjöar</title>
+
+  <!-- MapLibre GL JS -->
+  <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.0/dist/maplibre-gl.css" />
+  <script src="https://unpkg.com/maplibre-gl@4.7.0/dist/maplibre-gl.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Header ───────────────────────────────── -->
+  <header>
+    <div class="header-title">
+      <span class="icon">🧪</span>
+      <h1>Miljögifter <span>i svenska sjöar</span></h1>
+    </div>
+
+    <div class="header-search">
+      <span class="search-icon">🔍</span>
+      <input
+        id="search-input"
+        type="search"
+        placeholder="Sök sjönamn…"
+        autocomplete="off"
+      />
+    </div>
+
+    <button class="btn-toggle-sidebar" id="btn-toggle-sidebar">
+      ☰ Filter
+    </button>
+  </header>
+
+  <!-- ── Body ─────────────────────────────────── -->
+  <div class="app-body">
+
+    <!-- Sidebar -->
+    <aside id="sidebar">
+
+      <!-- Föroreningsgrad -->
+      <div class="sidebar-section">
+        <div class="sidebar-label">Föroreningsgrad</div>
+        <div class="filter-group">
+          <label class="filter-check low">
+            <input type="checkbox" class="grade-check" data-grade="låg" checked />
+            <span class="dot low"></span>
+            Låg
+          </label>
+          <label class="filter-check moderate">
+            <input type="checkbox" class="grade-check" data-grade="måttlig" checked />
+            <span class="dot moderate"></span>
+            Måttlig
+          </label>
+          <label class="filter-check high">
+            <input type="checkbox" class="grade-check" data-grade="hög" checked />
+            <span class="dot high"></span>
+            Hög
+          </label>
+        </div>
+      </div>
+
+      <!-- Giftyp -->
+      <div class="sidebar-section">
+        <div class="sidebar-label">Giftyp (AND-filter)</div>
+        <div class="gifter-grid" id="gifter-tags">
+          <!-- Populated by app.js -->
+        </div>
+      </div>
+
+      <!-- Result count + lake list -->
+      <div id="result-count">Laddar…</div>
+      <div id="lake-list"></div>
+
+    </aside>
+
+    <!-- Map -->
+    <div id="map"></div>
+
+    <!-- Legend -->
+    <div id="legend">
+      <div class="legend-title">Föroreningsgrad</div>
+      <div class="legend-row">
+        <span class="dot low"></span> Låg
+      </div>
+      <div class="legend-row">
+        <span class="dot moderate"></span> Måttlig
+      </div>
+      <div class="legend-row">
+        <span class="dot high"></span> Hög
+      </div>
+    </div>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
